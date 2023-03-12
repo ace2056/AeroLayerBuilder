@@ -1,2 +1,6 @@
 # AeroLayerBuilder
-Creates KML Layers for various aviation purposes like air refueling routes, airspaces, racetracks, and more.
+Creates KML layers for intended for aviation, like tracks, MOAs and the like, and air refueling areas and tracks routes. The intent is to fast-track custom KML production for use in aviation apps that utilize KML/KMZ files. Create custom paths and polygons, and polygons specific to some aviation needs (air refueling anchors and tracks) for representation on an app. While designed with ForeFlight in mind (presets and icons are those that look good and work well in ForeFlight), KMLs can be edited further in Google Earth or other programs to your liking. Users can copy and paste coordinates in decimal degrees (DD.ddd), decimal minutes (DD MM.mmm), or decimal seconds (DD MM SS.sss) and the program will accomplish the conversion. Users can also import a .csv file with points' name, latitude, and longitude.
+
+The nitty-gritty
+ - Icons, icon color/opacity path color/opacity, and polygon fill/opacity color can be customized
+ - AR Tracks add all information the user enters under the description section of the AR Track Label (bullseye/target icon). In ForeFlight this can be accessed by tapping the label and selecting More Information. This information in the popup window can be copy/pasted into ForeFlight's search or Insert Point dialogs for quick route changes.
